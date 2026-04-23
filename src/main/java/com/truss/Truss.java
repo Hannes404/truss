@@ -1,6 +1,7 @@
 package com.truss;
 
 import com.truss.block.ModBlocks;
+import com.truss.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,7 @@ public class Truss implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 	}
 }
