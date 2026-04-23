@@ -1,4 +1,5 @@
 {
   "block.truss.truss_block": "Truss",
-  "itemgroup.truss.truss_builds": "Structur Blocks"
+  "itemgroup.truss.truss_builds": "Structur Blocks",
+  "itemgroup.truss.fixtures": "Fixtures"
 }

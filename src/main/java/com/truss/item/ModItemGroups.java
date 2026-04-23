@@ -20,6 +20,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TRUSS_BLOCK);
                     }).build());
 
+    public static final ItemGroup FIXTURES_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Truss.MOD_ID, "fixtures"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.TRUSS_BLOCK))
+                    .displayName(Text.translatable("itemgroup.truss.fixtures"))
+                    .entries((displayContext, entries) -> {
+
+                    }).build());
+
     public static void registerItemGroups() {
         Truss.LOGGER.info("Registering ModItemGroups for " + Truss.MOD_ID);
     }
