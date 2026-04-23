@@ -22,7 +22,7 @@ public class ModItemGroups {
 
     public static final ItemGroup FIXTURES_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Truss.MOD_ID, "fixtures"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.TRUSS_BLOCK))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.TRUSS_BLOCK)) //Change block for fixture
                     .displayName(Text.translatable("itemgroup.truss.fixtures"))
                     .entries((displayContext, entries) -> {
 
