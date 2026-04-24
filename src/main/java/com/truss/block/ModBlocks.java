@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block TRUSS_BLOCK = registerBlock("truss_block",
-            new Block(AbstractBlock.Settings.create().strength(0.1F)
+            new Block(AbstractBlock.Settings.create().strength(0.5F)
                     .requiresTool().sounds(BlockSoundGroup.METAL)));
 
     private static Block registerBlock(String name, Block block) {
