@@ -31,8 +31,8 @@ public class ModBlocks {
     public static void registerModBlocks() {
         Truss.LOGGER.info("Registering ModBlocks for " + Truss.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
-            entries.add(ModBlocks.TRUSS_BLOCK);
-        });
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
+        //    entries.add(ModBlocks.TRUSS_BLOCK);
+        //});
     }
 }

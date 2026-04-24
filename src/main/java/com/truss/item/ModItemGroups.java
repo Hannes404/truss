@@ -25,7 +25,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.TRUSS_BLOCK)) //Change block for fixture
                     .displayName(Text.translatable("itemgroup.truss.fixtures"))
                     .entries((displayContext, entries) -> {
-
+                        entries.add(ModBlocks.TRUSS_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
