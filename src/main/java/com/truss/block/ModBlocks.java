@@ -16,7 +16,7 @@ public class ModBlocks {
 
     public static final Block TRUSS_BLOCK = registerBlock("truss_block",
             new Block(AbstractBlock.Settings.create().strength(0.5F)
-                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+                    .requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
