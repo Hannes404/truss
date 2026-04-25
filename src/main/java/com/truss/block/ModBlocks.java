@@ -1,6 +1,7 @@
 package com.truss.block;
 
 import com.truss.Truss;
+import com.truss.block.custom.trussblockcustom;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -27,6 +28,9 @@ public class ModBlocks {
         Registry.register(Registries.ITEM, Identifier.of(Truss.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
+
+    public static final Block TRUSSBLOCKCUSTOM = registerBlock("truss_block_custom",
+            new trussblockcustom() //Hier Weitermachen
 
     public static void registerModBlocks() {
         Truss.LOGGER.info("Registering ModBlocks for " + Truss.MOD_ID);
