@@ -29,8 +29,8 @@ public class ModBlocks {
                 new BlockItem(block, new Item.Settings()));
     }
 
-    public static final Block TRUSSBLOCKCUSTOM = registerBlock("truss_block_custom",
-            new trussblockcustom() //Hier Weitermachen
+    //public static final Block TRUSSBLOCKCUSTOM = registerBlock("truss_block_custom",
+    //        new trussblockcustom() //Hier Weitermachen
 
     public static void registerModBlocks() {
         Truss.LOGGER.info("Registering ModBlocks for " + Truss.MOD_ID);
